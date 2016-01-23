@@ -1161,27 +1161,6 @@ public class ClientController {
         response.setStatus(HttpServletResponse.SC_OK);
     }
 
-    /*@RequestMapping(value = "/addNewInstruction", method = RequestMethod.GET)
-    public void addNewInstruction(@RequestParam("instruction") String instruction,
-        @RequestParam("userName") String userName,
-        @RequestParam("clientId") Integer clientId) {
-        try{
-            User user = userService.getUser(userName);
-            Date date = new Date();
-            Date currentDate = df.parse(df.format(date));
-            Clientselectioninstruction clientInstruction=new Clientselectioninstruction();
-            clientInstruction.setInstruction(instruction);
-            clientInstruction.setUser(user);
-            clientInstruction.setDateCreated(currentDate);
-            clientInstruction.setClient(clientService.getClient(clientId));
-            instructionsService.saveInstruction(clientInstruction);
-        } catch (HelixServiceException e) {
-            e.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }*/
-
     @RequestMapping(value = "/deleteInstruction", method = RequestMethod.GET)
     public @ResponseBody void deleteInstruction(@RequestParam("rowId") Integer rowId) {
         try {
