@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client clientId="10"
+            name="Half Moon Bay Police Officers' Association"
+            acronym="HMBPOA"
+            jurisdiction="City of Half Moon Bay"
+            yearBook="1"
+            sfp="0"/>
+    <client clientId="14"
+            name="Chico Police Officers' Association"
+            acronym="CPOA"
+            jurisdiction="City of Chico"
+            yearBook="1"
+            sfp="1"/>
+    <client clientId="16"
+            name="Eureka Police Officers' Association"
+            acronym="EPOA"
+            jurisdiction="City of Eureka"
+            yearBook="0"
+            sfp="0"/>
+    <client clientId="17"
+            name="Alameda Police Officers' Association"
+            acronym="APOA"
+            jurisdiction="Alameda City"
+            yearBook="1"
+            sfp="0"/>
+    <client clientId="18"
+            name="Chula Vista Police Officers' Association"
+            acronym="CVPOA"
+            jurisdiction="City of Chula Vista"
+            yearBook="1"
+            sfp="1"/>
+</clients>

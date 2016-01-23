@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addresses>
+    <address clientId="10"
+            addressId="1"
+            category="Post Office"
+            streer="10 W. Bay Street"
+            poBox=""
+            city="Alhambra"
+            state="CA"
+            zip="91802"
+            country="USA"
+            />
+    <address clientId="10"
+             addressId="2"
+             category="Mailing"
+             streer=""
+             poBox="PO Box 7339"
+             city="Alhambra"
+             state="CA"
+             zip="91802-7339"
+             country="USA"
+            />
+    <address clientId="10"
+             addressId="3"
+             category="Billing"
+             streer=""
+             poBox="PO Box 7339"
+             city="Alhambra"
+             state="CA"
+             zip="91802-7339"
+             country="USA"
+            />
+</addresses>

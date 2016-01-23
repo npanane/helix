@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+    <contact contactId="1"
+            firstName="Steve"
+            lastName="Anderson"
+            title="Treasurer"
+            primaryEmail=""
+            secondaryEmail=""
+            emailStatement=""
+            faxStatement=""
+            mailStatement="1"
+            note=""/>
+    <contact contactId="2"
+             firstName="Nuwan"
+             lastName="Anderson"
+             title="Treasurer"
+             primaryEmail=""
+             secondaryEmail=""
+             emailStatement=""
+             faxStatement=""
+             mailStatement=""
+             note=""/>
+    <contact contactId="3"
+             firstName="Vindi"
+             lastName="Anderson"
+             title="Treasurer"
+             primaryEmail=""
+             secondaryEmail=""
+             emailStatement="1"
+             faxStatement=""
+             mailStatement=""
+             note=""/>
+    <contact contactId="4"
+             firstName="Evni"
+             lastName="Anderson"
+             title="Treasurer"
+             primaryEmail=""
+             secondaryEmail=""
+             emailStatement=""
+             faxStatement="1"
+             mailStatement=""
+             note=""/>
+</contacts>

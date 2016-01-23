@@ -1,0 +1,164 @@
+/* Client CSS */
+p { padding: 5px 0; }
+
+.header-logo img {
+    margin-left: 20px;
+}
+
+.checkbox_label {
+    margin-right: 5px;
+}
+
+.toggle-layer {
+    margin: 0;
+    padding: 0;
+}
+
+.search-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color:#cbcaca;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.search-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.contact-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color:#D1D0D0;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.client-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color: #cbcaca;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.phone-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color:#cbcaca;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.client-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.master-campain-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color:#D1D0D0;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.master-campain-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.phone-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.address-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color:#cbcaca;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.address-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.post-office-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color:#D1D0D0;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.post-office-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.note-heading {
+    font-family: 'Open Sans', arial;
+    color: #444;
+    font-weight: bold;
+    background-color:#D1D0D0;
+    margin: 1px;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.note-content {
+    padding: 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.phone-input-div {
+    width:150px; float:left;
+}
+.outter-frame {
+    margin: 0;
+    padding: 5px 0 0 0;
+    background: #f1f1f1;
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+}
+
+.inner-frame {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #e5e5e5;
+    float:right;
+}
+
+#search span {
+    color: #555;
+}

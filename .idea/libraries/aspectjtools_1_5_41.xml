@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aspectjtools-1.5.41">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../apache-tomcat-7.0.47/webapps/helix/WEB-INF/lib/aspectjtools-1.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

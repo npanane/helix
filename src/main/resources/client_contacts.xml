@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+    <contact contactId="1"
+            name="Steve Anderson"
+            title="Treasurer"
+            phone="714-801-20584"
+            home="714-801-20584"
+            mobile="714-801-20584"
+            other="714-801-20584"
+            fax="714-801-20584"
+            email=""
+            ms=""/>
+    <contact contactId="2"
+           name="Gaby Atilano"
+           title="Office Manager"
+           phone="7146350272"
+           home=""
+           mobile=""
+           other=""
+           fax=""
+           email="office@anaheimpoliceassociation.org"
+           ms=""/>
+    <contact contactId="3"
+               name="Kerry Condon"
+               title="President"
+               phone="714-765-3439"
+               home=""
+               mobile="714-497-6358"
+               other=""
+               fax=""
+               email="kpcapa@yahoo.com"
+               ms=""/>
+</contacts>

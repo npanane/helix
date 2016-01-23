@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phones>
+    <phone phoneId="1"
+            category="Office"
+            number="714-801-0777"/>
+    <phone phoneId="2"
+           category="Home"
+           number="714-801-0774"/>
+    <phone phoneId="3"
+           category="Mobile"
+           number="714-801-0777"/>
+    <phone phoneId="4"
+           category="Main"
+           number="714-801-8772"/>
+    <phone phoneId="5"
+           category="Work Fax"
+           number="714-801-0222"/>
+    <phone phoneId="6"
+           category="Home Fax"
+           number="714-801-9875"/>
+    <phone phoneId="7"
+           category="Pager"
+           number="919-801-0552"/>
+</phones>

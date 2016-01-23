@@ -1,0 +1,126 @@
+/*
+ Login styles
+*/
+body {
+    font-family: Tahoma, Arial, Helvetica, Tahoma, serif;
+    font-family: 'Open Sans',arial,sans-serif;
+    font:  16px/25px 'Open Sans',arial,sans-serif;
+    font-size:12px;
+    overflow-x:hidden;
+    margin: 0 auto;
+}
+
+.header-logo img {
+    padding: 15px 25px;
+    margin: 0 0 10px 30px;;
+}
+
+.content {
+    width: 300px;
+    /*background: #F0F0F0;*/
+    border: 1px solid #CCC;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 1px 5px 5px #CFCECE
+}
+
+.errorblock {
+    color: #ff0000;
+    background-color: #ffEEEE;
+    border: 2px solid #ff0000;
+    padding: 8px;
+    margin: 16px;
+
+}
+
+.sign-in {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #1480FF;
+    background-image: none;
+    border: 0;
+    border-radius: 5px;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: none;
+    font: 14px/21px arial,sans-serif;
+    padding: 7px 25px;
+    margin: 0 0 0 25px;
+    width: 250px;
+
+}
+
+.header {
+    width: 300px;
+    margin: 50px auto;
+    font-family: "open-sans",arial,sans-serif;
+}
+
+.header h1 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    margin-left: 20px;
+}
+
+.need-help {
+    font-family: "open-sans",arial,sans-serif;
+    color: #1480FF;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 0 0 25px;
+}
+
+.txt-box {
+    border:2px solid #b3b3b3;
+    background:#dddddd;
+    width:200px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+    -moz-box-shadow:    1px 1px 1px #ccc;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow:         1px 2px 2px 2px #ccc;
+}
+
+inputs:-webkit-input-placeholder {
+    color:    #b5b5b5;
+}
+
+inputs-moz-placeholder {
+    color:    #b5b5b5;
+}
+
+.inputs  {
+    width:250px;
+    padding: 15px 25px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9D9E9E;
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    margin: 0 0 15px 25px;;
+}
+
+.inputs:focus {
+    background: #DFE9EC;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline:0;
+}
+
+.inputs:hover   {
+    background: #DFE9EC;
+    color: #414848;
+}

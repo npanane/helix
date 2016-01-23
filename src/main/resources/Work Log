@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------------------------------------
+January xx, 2015 -
+Todo
+    -
+Completed
+    -
+Database changes required
+    -
+------------------------------------------------------------------------------------------------------------------------
+January 15, 2015 - Address Related Design Issue
+Completed
+    - POST OFFICE INFORMATION
+            - Address save
+            - Info is not fetching
+    - Client -> MASTER CAMPAIGN INFORMATION
+        - address issue
+
+Database changes required
+    - Check Postoffice table's id AI or not
+------------------------------------------------------------------------------------------------------------------------

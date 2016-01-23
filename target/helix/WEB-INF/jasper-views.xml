@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+	<!-- 
+		Declare Spring's View Resolvers for Jasper
+		
+		Based on the bean names we can infer that:
+			* pdfReport is for generating PDFs
+			* xlsReport is for Excel format reports
+			* htmlReport is for HTML reports
+			* csvReport is for CSV reports
+	-->
+	<!-- 
+		id: the name to be used as a reference in the controller
+		url: the path where the Jasper JRXML file is located
+		reportDateKey: the name of the datasource. This is passed by the controller
+	-->
+	<bean id="pdfReportClient"
+	   class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+		p:url="classpath:clientReport.jrxml"
+		p:reportDataKey="datasource" />
+
+	<bean id="xlsReport"
+	   class="org.springframework.web.servlet.view.jasperreports.JasperReportsXlsView"
+		p:url="classpath:clientReport.jrxml"
+		p:reportDataKey="datasource" />
+	
+	<bean id="htmlReport"
+	   class="org.springframework.web.servlet.view.jasperreports.JasperReportsHtmlView"
+		p:url="classpath:clientReport.jrxml"
+		p:reportDataKey="datasource" />
+	
+	<bean id="csvReport"
+	   class="org.springframework.web.servlet.view.jasperreports.JasperReportsCsvView"
+		p:url="classpath:clientReport.jrxml"
+		p:reportDataKey="datasource" />
+
+    <bean id="pdfReportVendor"
+          class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+          p:url="classpath:vendorReport.jrxml"
+          p:reportDataKey="datasource" />
+
+    <bean id="pdfReportAddressBook"
+          class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+          p:url="classpath:addressBookReport.jrxml"
+          p:reportDataKey="datasource" />
+
+    <bean id="pdfReportReferences"
+          class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+          p:url="classpath:referencesReport.jrxml"
+          p:reportDataKey="datasource" />
+
+    <bean id="pdfReportLeads"
+          class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+          p:url="classpath:leadsReport.jrxml"
+          p:reportDataKey="datasource" />
+
+    <bean id="pdfReportDrive"
+          class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+          p:url="classpath:drivesReport.jrxml"
+          p:reportDataKey="datasource" />
+
+    <bean id="pdfReportCampaign"
+          class="org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView"
+          p:url="classpath:campaignReport.jrxml"
+          p:reportDataKey="datasource" />
+
+</beans>

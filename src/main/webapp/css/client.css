@@ -1,0 +1,8 @@
+#subContainerBox{
+    margin: 0;
+    padding: 3px;
+    background: #2c3e50;
+    border: 1px solid #2c3e50;
+    overflow-y:auto;
+    white-space:nowrap;
+}

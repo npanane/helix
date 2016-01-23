@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'open-sans';
+    src: url('../font/open-sans.eot');
+    src: url('../font/open-sans.eot?iefix') format('opentype'),
+    url('../font/open-sans.woff') format('woff'),
+    url('../font/open-sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, a img{
+	border:none;
+}
+a img{
+	display: block;
+}
+
+
+.header-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 11;
+    min-height: 44px;
+    padding: 14px 15px 13px;
+    
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top,#fafafa,#f5f5f5);
+    background: -webkit-linear-gradient(top,#fafafa,#f5f5f5);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fafafa),color-stop(1,#f5f5f5));
+    background: linear-gradient(top,#fafafa,#f5f5f5);
+    border-bottom: 1px solid #eee;
+}
+
+.header-content{
+    width: 1011px;
+    margin: 0px auto;
+    height: 45px;
+    padding-right: 24px;
+}
+
+.header-logo h1{
+    font-size: 32px;
+    font-weight: 300;
+    font-family: "open-sans",arial,sans-serif;
+    color: #777;
+    margin-left: 7px;
+    float: left;
+}
+
+.header-logo img{
+    float: left;
+}
+
+.header-login{
+    float: right;
+}
+
+.install-now{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #1480FF;
+    background-image: none;
+    border: 0;
+    border-radius: 5px;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: none;
+    font: 14px/21px arial,sans-serif;
+    padding: 7px 25px;
+    margin: 5px 0 5px 10px;
+}
+
+.header-login a{
+    font-family: "open-sans",arial,sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 72px;
+    z-index: 11;
+    border-bottom: 1px solid #efefef;
+    
+    background: #fff;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.nav-content{
+    margin: 0px auto;
+    width: 1011px;
+}
+
+.nav-content ul{
+    list-style: none;
+    margin: 0;
+}
+
+.nav-content li{
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.54;
+    margin-right: 52px;
+    
+    float: left;
+    font-size: 14px;
+    line-height: 1.43;
+    padding: 6px 0;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.08);
+    position: relative;
+}
+
+.nav-content ul li ul{
+    position: absolute;
+    width: 460px;
+    top: 29px;
+    padding: 7px;
+    left: -5px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 40px rgba(0,0,0,0.4);
+    height: 650px;
+    overflow: overlay;
+    display: none;
+}
+
+.menu-header{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.17);;
+}
+
+.nav-content ul li ul li{
+    float: none;
+    margin: 0px;
+    padding: 6px 14px;
+    font-size: 13px;
+    width: 200px;
+}
+
+.nav-content ul li ul li:hover{
+    background-color: #f5f5f5;
+}
+
+.menu-section{
+    float: left;
+}
+
+.nav-content a{
+    color: #444;
+    text-decoration: none;
+    font-family: 'open-sans';
+}
+
+.active{
+    color: #444;
+    font-weight: bold;
+}
+
+.content{
+    margin: 0px auto;
+    width: 1011px;
+    background-color: #f5f5f5;
+    margin-top: 105px;
+    padding-top: 1px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.hot-offer{
+    width: 962px;
+    height: 278px;
+    margin: 23px;
+    background-color: #333333;
+    border: 1px solid gray;
+    color: #fff;
+    font-family: "open-sans",arial,sans-serif;
+    position: relative;
+}
+
+.hot-offer img{
+    float: right;
+}
+
+.hot-offer-owner{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hot-offer-loc{
+    font-size: 12px;
+    position: absolute;
+    top: 104px;
+    left: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hot-offer-desc{
+    font-size: 23px;
+    position: absolute;
+    top: 76px;
+    left: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.get-hot-offer{
+    position: absolute;
+    width: 184px;
+    height: 48px;
+    background-color: #1480FF;
+    border-radius: 3px;
+    top: 136px;
+    left: 18px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 47px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'open-sans';
+    font-weight: bold;
+}
+
+.offer-header{
+    margin: 10px 10px 10px 10px;
+    height: 25px;
+}
+
+.offer-header h3{
+    float: left;
+    margin-left: 13px;
+    font-family: open-sans;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.offer-header a{
+    float: right;
+    font-family: open-sans;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 13px;
+    color: #6176d3;
+}
+
+.offer{
+    height: 386px;
+    width: 308px;
+    float: left;
+    margin: 0px 0px 23px 23px;
+    background-color: #fff;
+    position: relative;
+}
+
+.offer-loc{
+    position: absolute;
+    top: 257px;
+    left: 11px;
+    font-family: open-sans;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.offer-type{
+    position: absolute;
+    color: #a698b1;
+    top: 257px;
+    right: 11px;
+    font-family: open-sans;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.offer-desc{
+    position: absolute;
+    top: 305px;
+    left: 11px;
+    font-family: open-sans;
+    font-size: 19px;
+}
+
+.get-offer-container{
+    border-top: 1px solid #efefef;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-image: url(../images/get-offer.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 9px;
+    background-position-x: 13px;
+}
+
+.get-offer-container a{
+    text-decoration: none;
+    font-family: open-sans;
+    margin: 0px 0px 0px 41px;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+.more-offers{
+    height: 40px;
+    background-color: #fff;
+    width: 964px;
+    margin: 0px auto;
+    clear: both;
+    position: relative;
+}
+
+.more-offers a{
+    text-decoration: none;
+    color: #1480FF;
+    font-weight: bold;
+    position: absolute;
+    left: 46%;
+    top: 33%;
+}
+
+.offer-apps-container{
+    height: 189px;
+    width: 961px;
+    margin: 17px auto;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    position: relative;
+}
+
+.offer-app-footer{
+    position: absolute;
+    bottom: 0px;
+    height: 34px;
+    width: 919px;
+    border-top: 1px solid #e5e5e5;
+    left: 22px;
+}
+
+.offer-app-right{
+    float: right;
+    border-left: 1px solid #eeeeee;
+    height: 113px;
+    width: 490px;
+    margin-top: 8px;
+}
+
+.offer-app-left{
+    float: left;
+    height: 113px;
+    width: 470px;
+    margin-top: 8px;
+}
+
+.offer-app-left img{
+    margin: 25px;
+    float: left;
+}
+
+.offer-app-left h3{
+    font-family: 'open-sans';
+    margin-top: 30px;
+    margin-bottom: 19px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.offer-app-left li{
+    float: left;
+    text-decoration: none;
+    padding-right: 93px;
+    color: #1480FF;
+    font-family: 'open-sans';
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 18px;
+    margin-bottom: 4px;
+}
+
+.offer-app-links{
+    margin-right: 40px;
+    line-height: 32px;
+    color: #9a9899;
+    font-family: 'open-sans';
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.offer-app-right h3{
+    font-family: 'open-sans';
+    margin-top: 30px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+.offer-app-right p{
+    font-family: 'open-sans';
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 32px;
+    color: #989898;
+}
+
+.footer-bar{
+    height: 187px;
+    width: 100%;
+    clear: both;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eeeeee;
+    position: relative;
+}
+
+.footer-container{
+    height: 140px;
+    width: 1011px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.bottom-bar{
+    height: 43px;
+    width: 100%;
+    clear: both;
+    background-color: #f5f5f5;
+    border-top: 1px solid #eeeeee;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bottom-bar p{
+    width: 1011px;
+    margin: 13px auto;
+    font-family: open-sans;
+    font-size: 12px;
+    padding-left: 16px;
+    color: blue;
+}
+
+.footer-container-bar{
+    height: 90px;
+    width: 100%;
+    border-top: 1px dashed #e4e4e4;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer-link-container{
+    float: left;
+    width: 465px;
+    margin-left: 30px;
+}
+
+red{
+    color: red;
+}
